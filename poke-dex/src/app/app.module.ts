@@ -8,6 +8,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { DashboardComponent } from './componentes/dashboard/dashboard.component';
 import { DescripcionComponent } from './componentes/descripcion/descripcion.component';
 import { ErrorBusquedaComponent } from './componentes/error-busqueda/error-busqueda.component';
+import { ModeloComponent } from './modelo/modelo/modelo.component';
+import { PokemonComponent } from './modelo/pokemon/pokemon.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ErrorBusquedaComponent } from './componentes/error-busqueda/error-busqu
     FooterComponent,
     DashboardComponent,
     DescripcionComponent,
-    ErrorBusquedaComponent
+    ErrorBusquedaComponent,
+    ModeloComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
