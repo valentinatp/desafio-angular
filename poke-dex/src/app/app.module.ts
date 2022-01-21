@@ -7,7 +7,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { DashboardComponent } from './componentes/dashboard/dashboard.component';
 import { DescripcionComponent } from './componentes/descripcion/descripcion.component';
-import { ErrorBusquedaComponent } from './error-busqueda/error-busqueda.component';
+import { ErrorBusquedaComponent } from './componentes/error-busqueda/error-busqueda.component';
 
 @NgModule({
   declarations: [
